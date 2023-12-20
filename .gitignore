@@ -1,2 +1,5 @@
 /.idea/
 /converter-service/src/main/resources/environment.properties
+/converter-service/src/main/resources/application.properties
+/api-gateway/src/main/resources/application.properties
+/api-gateway/src/main/resources/application.yml
