@@ -1,6 +1,5 @@
-package org.mada.portfolio.converterservice.exchangerates.data;
+package org.mada.portfolio.converterservice.exchangeratesdata;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;

@@ -29,7 +29,7 @@ spring:
         - id: converter-service
           uri: lb://converter-service/
           predicates:
-            - Path=/api/hello/**
+            - Path=/api/convert
 
       globalcors:
         cors-configurations:

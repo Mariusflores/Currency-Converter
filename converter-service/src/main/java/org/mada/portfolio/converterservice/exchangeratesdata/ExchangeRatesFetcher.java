@@ -1,7 +1,6 @@
-package org.mada.portfolio.converterservice.exchangerates.data;
+package org.mada.portfolio.converterservice.exchangeratesdata;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
