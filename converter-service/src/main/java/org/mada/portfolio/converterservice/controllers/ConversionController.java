@@ -16,7 +16,7 @@ public class ConversionController {
     private final ConversionService conversionService;
     private Environment environment;
 
-    @GetMapping("/convert")
+    @PostMapping("/convert")
     @ResponseStatus(HttpStatus.OK)
     public ConversionResponse convertAmount(@RequestBody ConversionRequest conversionRequest){
 
